@@ -40,57 +40,61 @@ EmployeeManagementWebProject/
 
 │ ├── dao/
 
-│ │ ├── EmployeeDao.java # Handles CRUD operations for Employee
+│ │    ├── EmployeeDao.java # Handles CRUD operations for Employee
 
-│ │ └── UserDao.java # Handles user authentication
+│ │    └── UserDao.java # Handles user authentication
+
 │ │
 
 │ ├── model/
 
-│ │ ├── Employee.java # Employee entity class
+│ │    ├── Employee.java # Employee entity class
 
-│ │ └── User.java # User entity class
+│ │    └── User.java # User entity class
+
 │ │
 
 │ ├── servlet/
 
-│ │ ├── AddEmployeeServlet.java # Handles adding new employees
+│ │    ├── AddEmployeeServlet.java # Handles adding new employees
 
-│ │ ├── DeleteServlet.java # Handles deleting employees
+│ │    ├── DeleteServlet.java # Handles deleting employees
 
-│ │ ├── EmployeeServlet.java # Displays employee list
+│ │    ├── EmployeeServlet.java # Displays employee list
 
-│ │ ├── LoginServlet.java # Handles login requests
+│ │    ├── LoginServlet.java # Handles login requests
 
-│ │ ├── SignupServlet.java # Handles user registration
+│ │    ├── SignupServlet.java # Handles user registration
 
-│ │ └── UpdateServlet.java # Handles updating employees
+│ │    └── UpdateServlet.java # Handles updating employees
+
 │ │
 
 │ └── utils/
 
-│ ├── Constants.java # Holds static SQL queries or constants
+│ │     ├── Constants.java # Holds static SQL queries or constants
 
-│ └── DBConnection.java # Manages database connection
+│ │     └── DBConnection.java # Manages database connection
 
-│├── webapp/
+│ │     ├── webapp/
 
-│ ├── META-INF/
+│ │     ├── META-INF/
 
 │ ├── WEB-INF/
 
-│ │ └── web.xml # Deployment descriptor
+│ │    └── web.xml # Deployment descriptor
 
-│ ├── addEmployee.jsp # Form to add employees
+│ │    ├── addEmployee.jsp # Form to add employees
 
-│ ├── employees.jsp # List of employees
+│ │    ├── employees.jsp # List of employees
 
-│ ├── index.html # Homepage
+│ │    ├── index.html # Homepage
 
-│ ├── signup.jsp # Registration page
+│ │    ├── signup.jsp # Registration page
 
-│ └── updateEmployee.jsp # Form to update employees
-│
+│ │    └── updateEmployee.jsp # Form to update employees
+
+│ │
 
 └── build/ # Compiled classes
 
