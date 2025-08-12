@@ -44,12 +44,14 @@ EmployeeManagementWebProject/
 
 │ │ └── UserDao.java # Handles user authentication
 │ │
+
 │ ├── model/
 
 │ │ ├── Employee.java # Employee entity class
 
 │ │ └── User.java # User entity class
 │ │
+
 │ ├── servlet/
 
 │ │ ├── AddEmployeeServlet.java # Handles adding new employees
@@ -64,12 +66,14 @@ EmployeeManagementWebProject/
 
 │ │ └── UpdateServlet.java # Handles updating employees
 │ │
+
 │ └── utils/
 
 │ ├── Constants.java # Holds static SQL queries or constants
 
 │ └── DBConnection.java # Manages database connection
 │
+
 ├── webapp/
 
 │ ├── META-INF/
