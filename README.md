@@ -34,6 +34,7 @@ The system also supports **user authentication** with signup and login functiona
 ## 📂 Project Structure
 
 EmployeeManagementWebProject/
+
 │
 ├── src/main/java/com/flm/
 
@@ -44,29 +45,47 @@ EmployeeManagementWebProject/
 │ │ └── UserDao.java # Handles user authentication
 │ │
 │ ├── model/
+
 │ │ ├── Employee.java # Employee entity class
+
 │ │ └── User.java # User entity class
 │ │
 │ ├── servlet/
+
 │ │ ├── AddEmployeeServlet.java # Handles adding new employees
+
 │ │ ├── DeleteServlet.java # Handles deleting employees
+
 │ │ ├── EmployeeServlet.java # Displays employee list
+
 │ │ ├── LoginServlet.java # Handles login requests
+
 │ │ ├── SignupServlet.java # Handles user registration
+
 │ │ └── UpdateServlet.java # Handles updating employees
 │ │
 │ └── utils/
+
 │ ├── Constants.java # Holds static SQL queries or constants
+
 │ └── DBConnection.java # Manages database connection
 │
 ├── webapp/
+
 │ ├── META-INF/
+
 │ ├── WEB-INF/
+
 │ │ └── web.xml # Deployment descriptor
+
 │ ├── addEmployee.jsp # Form to add employees
+
 │ ├── employees.jsp # List of employees
+
 │ ├── index.html # Homepage
+
 │ ├── signup.jsp # Registration page
+
 │ └── updateEmployee.jsp # Form to update employees
 │
 └── build/ # Compiled classes
