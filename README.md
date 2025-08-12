@@ -1,9 +1,6 @@
 # 👨‍💼 Employee Management Web Project
 
----
 ## WebProject | FLM
-
----
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -39,8 +36,11 @@ The system also supports **user authentication** with signup and login functiona
 EmployeeManagementWebProject/
 │
 ├── src/main/java/com/flm/
+
 │ ├── dao/
+
 │ │ ├── EmployeeDao.java # Handles CRUD operations for Employee
+
 │ │ └── UserDao.java # Handles user authentication
 │ │
 │ ├── model/
