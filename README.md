@@ -72,9 +72,8 @@ EmployeeManagementWebProject/
 │ ├── Constants.java # Holds static SQL queries or constants
 
 │ └── DBConnection.java # Manages database connection
-│
 
-├── webapp/
+│├── webapp/
 
 │ ├── META-INF/
 
@@ -92,6 +91,7 @@ EmployeeManagementWebProject/
 
 │ └── updateEmployee.jsp # Form to update employees
 │
+
 └── build/ # Compiled classes
 
 ---
